@@ -24,7 +24,7 @@ namespace ApisToDo.Controllers
         {
             try
             {
-
+                Console.WriteLine("test");
                 DataTable dtRespuestaApi = new DataTable();
                 using (SqlConnection sqlConnection = new SqlConnection(cnnString))
                 {
